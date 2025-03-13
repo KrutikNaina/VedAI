@@ -1,0 +1,64 @@
+{% load static %}
+
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/@codingnepal -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VedAI</title>
+
+    <!-- Web Icon -->
+    <link rel="website icon" type="png" href="/media/images/krishna-hand.jpg">
+
+    <!-- Linking Google Fonts For Icons -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@32,400,0,0" />
+    <!-- css start -->
+    <link rel="stylesheet" type="text/css" href="{% static '/css/chat.css' %}">
+
+</head>
+
+<body>
+    <div class="container">
+        <!-- App Header -->
+        <header class="app-header">
+            <h1><span class="heading">Namaste! </span>🙏</h1>
+            <div class="sub-heading" style="font-size: 20px;">VedAI: Discover Your Rashi Name – Choose Your Preference Wisely!</div>
+        </header>
+
+        <!-- Chats -->
+        <div class="chats-container"></div>
+        <!-- Prompt Input -->
+        <div class="prompt-container">
+            <div class="prompt-wrapper">
+                <form action="#" class="prompt-form">
+                    <input type="text" placeholder="Enter Boy Or Girl + Rashi (e.g., Mesha, Vrishabha)..."
+                        class="prompt-input" required />
+                    <div class="prompt-actions">
+                        <!-- File Upload Wrapper -->
+                        <div class="file-upload-wrapper">
+                            <img src="#" class="file-preview" />
+                            <input id="file-input" type="file" accept="image/*, .pdf, .txt, .csv" hidden />
+                            <button type="button" class="file-icon material-symbols-rounded">description</button>
+                            <button id="cancel-file-btn" type="button" class="material-symbols-rounded">close</button>
+                           
+                        </div>
+                        <!-- Send Prompt and Stop Response Buttons -->
+                        <button id="stop-response-btn" type="button"
+                            class="material-symbols-rounded">stop_circle</button>
+                        <button id="send-prompt-btn" class="material-symbols-rounded">arrow_upward</button>
+                    </div>
+                </form>
+                <!-- Theme and Delete Chats Buttons -->
+                <button id="theme-toggle-btn" class="material-symbols-rounded">light_mode</button>
+                <button id="delete-chats-btn" class="material-symbols-rounded">delete</button>
+            </div>
+            <p class="disclaimer-text">The VedAI provides name suggestions based on Rashi.</p>
+        </div>
+    </div>
+    <script type="text/javascript" src="{% static 'js/ChatbotRashi.js' %}"></script>
+</body>
+
+</html>
