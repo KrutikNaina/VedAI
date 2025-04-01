@@ -38,10 +38,10 @@ VedAI is an AI-powered chatbot that provides Bhagavad Gita shlokas and solutions
    python manage.py runserver
    ```
 
-## **Technologies Used**  
-- **Python** (Flask/FastAPI for the chatbot backend)  
-- **Machine Learning/NLP** (For understanding user problems)  
-- **Hindu Scriptures Dataset** (Bhagavad Gita for responses)  
+## 🏗️ Tech Stack  
+- **Backend**: Django (Python)  
+- **Database**: SQLite  
+- **AI Model**: Google Gemini API 
 
 ## **Contributing**  
 Feel free to submit pull requests for improvements or additional features.  
@@ -50,8 +50,8 @@ Feel free to submit pull requests for improvements or additional features.
 This project is open-source under the **MIT License**.  
 
 ## 📬 Contact  
-For any issues or suggestions, open an issue or contact
-📧 Email: [krutiknaina29@gmail.com](mailto:krutiknaina29@gmail.com).
+For any issues or suggestions, open an issue or contact <br/>
+📧 Email: [krutiknaina29@gmail.com](mailto:krutiknaina29@gmail.com). <br/>
 🔗 LinkedIn: [Krutik Naina](https://www.linkedin.com/in/krutik-naina/)
 
 ---
