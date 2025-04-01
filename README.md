@@ -35,7 +35,7 @@ VedAI is an AI-powered chatbot that provides Bhagavad Gita shlokas and solutions
    ```
 3. Run the chatbot:  
    ```bash
-   python app.py
+   python manage.py runserver
    ```
 
 ## **Technologies Used**  
